@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8649A7A02A61EF33007B7342 /* secondQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8649A79F2A61EF33007B7342 /* secondQuestion.swift */; };
+		8649A7A22A61F30D007B7342 /* thirdQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8649A7A12A61F30D007B7342 /* thirdQuestion.swift */; };
 		86E59D0D2A61AF6200D1222D /* KrishiQuestionAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E59D0C2A61AF6200D1222D /* KrishiQuestionAppApp.swift */; };
 		86E59D0F2A61AF6200D1222D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E59D0E2A61AF6200D1222D /* ContentView.swift */; };
 		86E59D112A61AF6200D1222D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86E59D102A61AF6200D1222D /* Assets.xcassets */; };
 		86E59D142A61AF6200D1222D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86E59D132A61AF6200D1222D /* Preview Assets.xcassets */; };
+		86E59D1B2A61B26C00D1222D /* FirstQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E59D1A2A61B26C00D1222D /* FirstQuestion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8649A79F2A61EF33007B7342 /* secondQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondQuestion.swift; sourceTree = "<group>"; };
+		8649A7A12A61F30D007B7342 /* thirdQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdQuestion.swift; sourceTree = "<group>"; };
 		86E59D092A61AF6200D1222D /* KrishiQuestionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KrishiQuestionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E59D0C2A61AF6200D1222D /* KrishiQuestionAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrishiQuestionAppApp.swift; sourceTree = "<group>"; };
 		86E59D0E2A61AF6200D1222D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86E59D102A61AF6200D1222D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86E59D132A61AF6200D1222D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86E59D1A2A61B26C00D1222D /* FirstQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstQuestion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				86E59D0C2A61AF6200D1222D /* KrishiQuestionAppApp.swift */,
 				86E59D0E2A61AF6200D1222D /* ContentView.swift */,
+				86E59D1A2A61B26C00D1222D /* FirstQuestion.swift */,
+				8649A79F2A61EF33007B7342 /* secondQuestion.swift */,
+				8649A7A12A61F30D007B7342 /* thirdQuestion.swift */,
 				86E59D102A61AF6200D1222D /* Assets.xcassets */,
 				86E59D122A61AF6200D1222D /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86E59D1B2A61B26C00D1222D /* FirstQuestion.swift in Sources */,
 				86E59D0F2A61AF6200D1222D /* ContentView.swift in Sources */,
 				86E59D0D2A61AF6200D1222D /* KrishiQuestionAppApp.swift in Sources */,
+				8649A7A22A61F30D007B7342 /* thirdQuestion.swift in Sources */,
+				8649A7A02A61EF33007B7342 /* secondQuestion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
